@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Tala\AppData\Local\Temp\testng-eclipse-2067546603\testng-customsuite.xml</span>
+                    <span>C:\Users\Tala\AppData\Local\Temp\testng-eclipse--398865384\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="CheckQitaLogoIfDisapled">CheckQitaLogoIfDisapled</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="TestThePageIsFullyLoaded">TestThePageIsFullyLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="sortItems">sortItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -118,17 +123,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="CheckTheContactNumber">CheckTheContactNumber</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="ChangeTheLanguageRandomly">ChangeTheLanguageRandomly</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="CheckTheCurrancySAR">CheckTheCurrancySAR</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="HotelSelection">HotelSelection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="CheckTheLanguage">CheckTheLanguage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TestCases" class="method navigator-link" hash-for-method="NumberOfPepole">NumberOfPepole</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -151,18 +156,50 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckQitaLogoIfDisapled">
-                  </a> <!-- CheckQitaLogoIfDisapled -->
-                  <span class="method-name">CheckQitaLogoIfDisapled</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//svg[@data-testid=&apos;Footer__QitafLogo&apos;]&quot;}
+                  <a name="TestThePageIsFullyLoaded">
+                  </a> <!-- TestThePageIsFullyLoaded -->
+                  <span class="method-name">TestThePageIsFullyLoaded</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[data-testid=&apos;HotelSearchResult__resultsFoundCount&apos;] (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at TestCases.TestThePageIsFullyLoaded(TestCases.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[data-testid=&apos;HotelSearchResult__resultsFoundCount&apos;]&quot;}
   (Session info: chrome=126.0.6478.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [427afe31f253efc53996dcf148abceeb, findChildElement {id=f.346EC217ABAFFF67BC08C2938F177D12.d.DE95FAD54E5B2199C32E201B7C13DE58.e.170, value=//svg[@data-testid=&apos;Footer__QitafLogo&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Tala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53306/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 427afe31f253efc53996dcf148abceeb
+Command: [10af028d23f86abb206dae158d0f9e6d, findElement {value=//span[data-testid=&apos;HotelSearchResult__resultsFoundCount&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Tala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59512/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10af028d23f86abb206dae158d0f9e6d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -178,8 +215,27 @@ Session ID: 427afe31f253efc53996dcf148abceeb
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:211)
-	at TestCases.CheckQitaLogoIfDisapled(TestCases.java:55)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 29 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortItems">
+                  </a> <!-- sortItems -->
+                  <span class="method-name">sortItems</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at TestCases.sortItems(TestCases.java:169)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -222,23 +278,23 @@ Session ID: 427afe31f253efc53996dcf148abceeb
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckTheContactNumber">
-                  </a> <!-- CheckTheContactNumber -->
-                  <span class="method-name">CheckTheContactNumber</span>
+                  <a name="ChangeTheLanguageRandomly">
+                  </a> <!-- ChangeTheLanguageRandomly -->
+                  <span class="method-name">ChangeTheLanguageRandomly</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckTheCurrancySAR">
-                  </a> <!-- CheckTheCurrancySAR -->
-                  <span class="method-name">CheckTheCurrancySAR</span>
+                  <a name="HotelSelection">
+                  </a> <!-- HotelSelection -->
+                  <span class="method-name">HotelSelection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckTheLanguage">
-                  </a> <!-- CheckTheLanguage -->
-                  <span class="method-name">CheckTheLanguage</span>
+                  <a name="NumberOfPepole">
+                  </a> <!-- NumberOfPepole -->
+                  <span class="method-name">NumberOfPepole</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,7 +302,7 @@ Session ID: 427afe31f253efc53996dcf148abceeb
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Tala\AppData\Local\Temp\testng-eclipse-2067546603\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Tala\AppData\Local\Temp\testng-eclipse--398865384\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -295,28 +351,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CheckQitaLogoIfDisapled')
+data.setCell(0, 1, 'TestThePageIsFullyLoaded')
 data.setCell(0, 2, 'TestCases')
-data.setCell(0, 3, 8084);
+data.setCell(0, 3, 68012);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'CheckTheCurrancySAR')
+data.setCell(1, 1, 'sortItems')
 data.setCell(1, 2, 'TestCases')
-data.setCell(1, 3, 65);
+data.setCell(1, 3, 9778);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CheckTheContactNumber')
+data.setCell(2, 1, 'NumberOfPepole')
 data.setCell(2, 2, 'TestCases')
-data.setCell(2, 3, 50);
+data.setCell(2, 3, 2880);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CheckTheLanguage')
+data.setCell(3, 1, 'ChangeTheLanguageRandomly')
 data.setCell(3, 2, 'TestCases')
-data.setCell(3, 3, 49);
+data.setCell(3, 3, 877);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HotelSelection')
+data.setCell(4, 2, 'TestCases')
+data.setCell(4, 3, 345);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -331,9 +391,26 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CheckHotelTabNotSelected</span>
+                <br/>
+                <span class="ignored-method-name">CheckTheLanguage</span>
+                <br/>
+                <span class="ignored-method-name">CheckQitaLogoIfDisapled</span>
+                <br/>
+                <span class="ignored-method-name">CheckTheCurrancySAR</span>
+                <br/>
+                <span class="ignored-method-name">CheckTheContactNumber</span>
+                <br/>
+                <span class="ignored-method-name">CheckDepartureAndReturnDate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -348,22 +425,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">ChangeTheLanguageRandomly</span>
+                <span class="method-start">4040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HotelSelection</span>
+                <span class="method-start">4925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NumberOfPepole</span>
+                <span class="method-start">5272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">CheckQitaLogoIfDisapled</span>
-                <span class="method-start">3185 ms</span>
+                <span class="method-name">TestThePageIsFullyLoaded</span>
+                <span class="method-start">8152 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">CheckTheContactNumber</span>
-                <span class="method-start">11286 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">CheckTheCurrancySAR</span>
-                <span class="method-start">11336 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">CheckTheLanguage</span>
-                <span class="method-start">11401 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortItems</span>
+                <span class="method-start">76170 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

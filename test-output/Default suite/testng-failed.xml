@@ -5,7 +5,8 @@
     <classes>
       <class name="TestCases">
         <methods>
-          <include name="CheckQitaLogoIfDisapled"/>
+          <include name="TestThePageIsFullyLoaded"/>
+          <include name="sortItems"/>
           <include name="mySetup"/>
         </methods>
       </class> <!-- TestCases -->
