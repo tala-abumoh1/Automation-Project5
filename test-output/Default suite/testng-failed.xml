@@ -6,8 +6,10 @@
       <class name="TestCases">
         <methods>
           <include name="TestThePageIsFullyLoaded"/>
+          <include name="tearDown"/>
           <include name="sortItems"/>
           <include name="mySetup"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- TestCases -->
     </classes>

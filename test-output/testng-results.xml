@@ -1,29 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="11" passed="3" failed="2" skipped="0">
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-30T10:19:51 EET" name="Default suite" finished-at="2024-06-30T10:21:17 EET" duration-ms="85958">
+  <suite started-at="2024-07-12T22:05:12 EET" name="Default suite" finished-at="2024-07-12T22:06:33 EET" duration-ms="81499">
     <groups>
     </groups>
-    <test started-at="2024-06-30T10:19:51 EET" name="Default test" finished-at="2024-06-30T10:21:17 EET" duration-ms="85958">
+    <test started-at="2024-07-12T22:05:12 EET" name="Default test" finished-at="2024-07-12T22:06:33 EET" duration-ms="81499">
       <class name="TestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:TestCases@6ebf0f36]" started-at="2024-06-30T10:19:51 EET" name="mySetup" finished-at="2024-06-30T10:19:55 EET" duration-ms="4014" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:10 EET" name="setUp" finished-at="2024-07-12T22:05:12 EET" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:12 EET" name="mySetup" finished-at="2024-07-12T22:05:16 EET" duration-ms="3762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="ChangeTheLanguageRandomly()[pri:1, instance:TestCases@6ebf0f36]" started-at="2024-06-30T10:19:55 EET" name="ChangeTheLanguageRandomly" finished-at="2024-06-30T10:19:56 EET" duration-ms="877" status="PASS">
+        <test-method signature="CheckTheLanguage()[pri:1, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="CheckTheLanguage" description="MainPageTestCases" finished-at="2024-07-12T22:05:16 EET" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheLanguage -->
+        <test-method signature="CheckTheCurrancySAR()[pri:2, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="CheckTheCurrancySAR" description="MainPageTestCases" finished-at="2024-07-12T22:05:16 EET" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheCurrancySAR -->
+        <test-method signature="CheckTheContactNumber()[pri:3, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="CheckTheContactNumber" description="MainPageTestCases" finished-at="2024-07-12T22:05:16 EET" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheContactNumber -->
+        <test-method signature="CheckQitaLogoIfDisapled()[pri:4, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="CheckQitaLogoIfDisapled" description="MainPageTestCases" finished-at="2024-07-12T22:05:16 EET" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQitaLogoIfDisapled -->
+        <test-method signature="CheckHotelTabNotSelected()[pri:5, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="CheckHotelTabNotSelected" description="MainPageTestCases" finished-at="2024-07-12T22:05:16 EET" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHotelTabNotSelected -->
+        <test-method signature="CheckDepartureAndReturnDate()[pri:6, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="CheckDepartureAndReturnDate" description="MainPageTestCases" finished-at="2024-07-12T22:05:16 EET" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDepartureAndReturnDate -->
+        <test-method signature="ChangeTheLanguageRandomly()[pri:7, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:16 EET" name="ChangeTheLanguageRandomly" description="MainPageTestCases" finished-at="2024-07-12T22:05:18 EET" duration-ms="1840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangeTheLanguageRandomly -->
-        <test-method signature="HotelSelection()[pri:2, instance:TestCases@6ebf0f36]" started-at="2024-06-30T10:19:56 EET" name="HotelSelection" finished-at="2024-06-30T10:19:56 EET" duration-ms="345" status="PASS">
+        <test-method signature="HotelSelection()[pri:8, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:18 EET" name="HotelSelection" description="MainPageTestCases" finished-at="2024-07-12T22:05:18 EET" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSelection -->
-        <test-method signature="NumberOfPepole()[pri:3, instance:TestCases@6ebf0f36]" started-at="2024-06-30T10:19:56 EET" name="NumberOfPepole" finished-at="2024-06-30T10:19:59 EET" duration-ms="2880" status="PASS">
+        <test-method signature="NumberOfPepole()[pri:9, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:18 EET" name="NumberOfPepole" description="MainPageTestCases" finished-at="2024-07-12T22:05:22 EET" duration-ms="4132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NumberOfPepole -->
-        <test-method signature="TestThePageIsFullyLoaded()[pri:4, instance:TestCases@6ebf0f36]" started-at="2024-06-30T10:19:59 EET" name="TestThePageIsFullyLoaded" finished-at="2024-06-30T10:21:07 EET" duration-ms="68012" status="FAIL">
+        <test-method signature="TestThePageIsFullyLoaded()[pri:10, instance:TestCases@6356695f]" started-at="2024-07-12T22:05:22 EET" name="TestThePageIsFullyLoaded" description="MainPageTestCases" finished-at="2024-07-12T22:06:23 EET" duration-ms="60462" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //span[data-testid='HotelSearchResult__resultsFoundCount'] (tried for 60 second(s) with 500 milliseconds interval)]]>
@@ -32,7 +60,8 @@
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[data-testid='HotelSearchResult__resultsFoundCount'] (tried for 60 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at TestCases.TestThePageIsFullyLoaded(TestCases.java:153)
+at HotelPageTestCases.TestThePageIsFullyLoadedTest(HotelPageTestCases.java:46)
+at TestCases.TestThePageIsFullyLoaded(TestCases.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,9 +96,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10af028d23f86abb206dae158d0f9e6d, findElement {value=//span[data-testid='HotelSearchResult__resultsFoundCount'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Tala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59512/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10af028d23f86abb206dae158d0f9e6d
+Command: [0885251a79c795a31d99167a2567acee, findElement {value=//span[data-testid='HotelSearchResult__resultsFoundCount'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Tala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53874/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0885251a79c795a31d99167a2567acee
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -89,14 +118,14 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
 at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 29 more
+... 30 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestThePageIsFullyLoaded -->
-        <test-method signature="sortItems()[pri:5, instance:TestCases@6ebf0f36]" started-at="2024-06-30T10:21:07 EET" name="sortItems" finished-at="2024-06-30T10:21:17 EET" duration-ms="9778" status="FAIL">
+        <test-method signature="sortItems()[pri:11, instance:TestCases@6356695f]" started-at="2024-07-12T22:06:23 EET" name="sortItems" description="MainPageTestCases" finished-at="2024-07-12T22:06:33 EET" duration-ms="10575" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 0 out of bounds for length 0]]>
@@ -108,7 +137,8 @@ at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions
 at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 at java.base/java.util.Objects.checkIndex(Objects.java:359)
 at java.base/java.util.ArrayList.get(ArrayList.java:427)
-at TestCases.sortItems(TestCases.java:169)
+at HotelPageTestCases.sortItemsTest(HotelPageTestCases.java:62)
+at TestCases.sortItems(TestCases.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,6 +173,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases@6356695f]" started-at="2024-07-12T22:06:33 EET" name="tearDown" finished-at="2024-07-12T22:06:34 EET" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

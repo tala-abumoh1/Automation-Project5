@@ -9,14 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">85,958</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">81,499</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestCases</td><td><a href="#m0">TestThePageIsFullyLoaded</a></td><td rowspan="1">1719731999601</td><td rowspan="1">68012</td></tr><tr class="failedeven"><td><a href="#m1">sortItems</a></td><td rowspan="1">1719732067619</td><td rowspan="1">9778</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestCases</td><td><a href="#m2">ChangeTheLanguageRandomly</a></td><td rowspan="1">1719731995489</td><td rowspan="1">877</td></tr><tr class="passedeven"><td><a href="#m3">HotelSelection</a></td><td rowspan="1">1719731996374</td><td rowspan="1">345</td></tr><tr class="passedeven"><td><a href="#m4">NumberOfPepole</a></td><td rowspan="1">1719731996721</td><td rowspan="1">2880</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestCases</td><td><a href="#m0">TestThePageIsFullyLoaded</a></td><td rowspan="1">1720811122860</td><td rowspan="1">60462</td></tr><tr class="failedeven"><td><a href="#m1">sortItems</a></td><td rowspan="1">1720811183325</td><td rowspan="1">10575</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">TestCases</td><td><a href="#m2">ChangeTheLanguageRandomly</a></td><td rowspan="1">1720811116557</td><td rowspan="1">1840</td></tr><tr class="passedeven"><td><a href="#m3">CheckDepartureAndReturnDate</a></td><td rowspan="1">1720811116494</td><td rowspan="1">62</td></tr><tr class="passedeven"><td><a href="#m4">CheckHotelTabNotSelected</a></td><td rowspan="1">1720811116464</td><td rowspan="1">29</td></tr><tr class="passedeven"><td><a href="#m5">CheckQitaLogoIfDisapled</a></td><td rowspan="1">1720811116393</td><td rowspan="1">70</td></tr><tr class="passedeven"><td><a href="#m6">CheckTheContactNumber</a></td><td rowspan="1">1720811116360</td><td rowspan="1">31</td></tr><tr class="passedeven"><td><a href="#m7">CheckTheCurrancySAR</a></td><td rowspan="1">1720811116289</td><td rowspan="1">69</td></tr><tr class="passedeven"><td><a href="#m8">CheckTheLanguage</a></td><td rowspan="1">1720811116190</td><td rowspan="1">94</td></tr><tr class="passedeven"><td><a href="#m9">HotelSelection</a></td><td rowspan="1">1720811118397</td><td rowspan="1">331</td></tr><tr class="passedeven"><td><a href="#m10">NumberOfPepole</a></td><td rowspan="1">1720811118728</td><td rowspan="1">4132</td></tr></tbody>
 </table>
 <h2>Default test</h2><h3 id="m0">TestCases#TestThePageIsFullyLoaded</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[data-testid=&apos;HotelSearchResult__resultsFoundCount&apos;] (tried for 60 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at TestCases.TestThePageIsFullyLoaded(TestCases.java:153)
+	at HotelPageTestCases.TestThePageIsFullyLoadedTest(HotelPageTestCases.java:46)
+	at TestCases.TestThePageIsFullyLoaded(TestCases.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,9 +52,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10af028d23f86abb206dae158d0f9e6d, findElement {value=//span[data-testid=&apos;HotelSearchResult__resultsFoundCount&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Tala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59512/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10af028d23f86abb206dae158d0f9e6d
+Command: [0885251a79c795a31d99167a2567acee, findElement {value=//span[data-testid=&apos;HotelSearchResult__resultsFoundCount&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\Tala\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53874/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0885251a79c795a31d99167a2567acee
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -73,7 +74,7 @@ Session ID: 10af028d23f86abb206dae158d0f9e6d
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
 	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 29 more
+	... 30 more
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">TestCases#sortItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
@@ -81,7 +82,8 @@ Session ID: 10af028d23f86abb206dae158d0f9e6d
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at TestCases.sortItems(TestCases.java:169)
+	at HotelPageTestCases.sortItemsTest(HotelPageTestCases.java:62)
+	at TestCases.sortItems(TestCases.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,7 +114,13 @@ Session ID: 10af028d23f86abb206dae158d0f9e6d
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">TestCases#ChangeTheLanguageRandomly</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestCases#HotelSelection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestCases#NumberOfPepole</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases#CheckDepartureAndReturnDate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases#CheckHotelTabNotSelected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases#CheckQitaLogoIfDisapled</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases#CheckTheContactNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases#CheckTheCurrancySAR</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases#CheckTheLanguage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases#HotelSelection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCases#NumberOfPepole</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
